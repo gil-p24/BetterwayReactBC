@@ -1,13 +1,23 @@
 //imports snippet imrc
 //imports
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
+import Card from './components/Card';
+import data from './assets/data'
+
 
 function App() {
+
   return (
     <div>
-      <Navbar />
-      <Hero />
+      <section>
+        {data.map(item => (
+          <Card
+            key={item.id}
+            item={item}
+           
+          /> 
+      ))}
+      </section>
+     
     </div>
   );
 }

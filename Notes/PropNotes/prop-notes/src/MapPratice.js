@@ -20,3 +20,13 @@ const addHtml = yugioh.map(element => {
 //after mapping an do array methods on mapped array
 console.log(addHtml.reverse());
 
+// what does .map() method do?
+// return a new array w/e get returned from the callback function provided is placed in the same index in the new array
+
+
+
+// why is map the go to loop method in React?
+// convert an array of raw data unto an array of jsx elements that can be displayed on the page
+
+// why is th emap method better for creating componets
+// make code more self-sustaining 
